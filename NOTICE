@@ -1,7 +1,12 @@
-dsh-purge
-Copyright 2026 YuJunZhiXue
+dsh-purge — DeepSeek Harness 破甲插件（蛋蛋 维护版）
+Copyright 2026 蛋蛋 (DanDan) / 1668dandan
 
-Source: https://github.com/YuJunZhiXue/dsh-purge
+上游原作 / Original work:
+  dsh-purge by YuJunZhiXue — https://github.com/YuJunZhiXue/dsh-purge
+  Copyright 2026 YuJunZhiXue
+本仓库 / This fork:
+  https://github.com/1668dandan/dsh-purge
 
 This product is licensed under the Apache License, Version 2.0.
-Derivative works must retain this NOTICE and attribution.
+Derivative works must retain this NOTICE, the upstream attribution above,
+and the Apache-2.0 copyright notices.
