@@ -1,3 +1,23 @@
+# 1.2.0
+
+## 中文
+
+- 版本 **1.2.0**。
+- **新增 `docs/FILES.md`**：按目录逐个说明每个文件的作用——根目录清单、`lib/` 主逻辑（注入与身份 / 补丁引擎 / 宿主适配与重启 / 其他）、`lib/redteam/` 演练台、`scripts/`、`presets/`、`docs/`，末尾附「改了什么要跑什么」对照表（改提示词跑 `embed-default-prompt.mjs`，改演练台前端跑 `build-client.mjs`，改补丁表只需重启宿主）。
+- **默认提示词更新**：`lib/asset-table.js` 重新封槽，正文身份名与 `PLUGIN_DEFAULT_MARKERS` 血统标记同步，`identity.js` 的「你是谁」约束句一致。
+- **界面与元信息**：`welcome.repo` 指向本仓库；用户须知三处「作者」改为「维护者」；`package.json` 的 `author` / `repository` / `homepage` / `bugs` / `dsh.install` 三处地址；`lib/update.js` 的 `REPO` 常量；`lib/redteam/ui.js` 的兜底仓库名。
+- **文档**：三份 README（中 / 英 / 日）的维护者说明、署名条款、全部安装与下载链接、版本号。
+- 补丁表未改动，仍是 86 条。
+
+## English
+
+- **1.2.0**.
+- **New `docs/FILES.md`**: file-by-file reference — root manifest, `lib/` core (prompt injection and identity / patch engine / host adapters and restart / misc), `lib/redteam/` drill console, `scripts/`, `presets/`, `docs/`, plus a closing table of "what you changed → what to run" (`embed-default-prompt.mjs` after prompt edits, `build-client.mjs` after drill-UI edits, nothing but a host restart after patch-table edits).
+- **Default prompt updated**: `lib/asset-table.js` resealed; identity name in the body and the `PLUGIN_DEFAULT_MARKERS` lineage check kept in sync with the "who are you" constraint in `identity.js`.
+- **UI and metadata**: `welcome.repo` points at this repository; three user-notice strings say maintainer instead of author; `package.json` `author` / `repository` / `homepage` / `bugs` / `dsh.install`; the `REPO` constant in `lib/update.js`; the fallback repository name in `lib/redteam/ui.js`.
+- **Docs**: maintainer note, attribution terms, every install and download link, and the version number across the zh / en / ja READMEs.
+- The patch table is unchanged at 86 entries.
+
 # 1.1.90
 
 ## 中文
